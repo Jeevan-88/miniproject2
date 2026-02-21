@@ -1,0 +1,5 @@
+{
+  "name": "Social Media Platform Backend",
+  "description": "A production-ready social media backend with JWT auth, email verification, and full CRUD for posts, comments, and likes.",
+  "requestFramePermissions": []
+}

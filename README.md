@@ -1,11 +1,28 @@
-<div align="center">
+# Social Media Platform Backend
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**Student Details:**
+- **Name:** Jeevan Yadav
+- **Roll Number:** 27
+- **Registration Number:** 12308799
 
-  <h1>Built with AI Studio</h2>
+## Project Overview
+This is a production-ready Social Media Backend built with Node.js, Express, and TypeScript. It features a robust architecture including:
+- **JWT Authentication** with Role-Based Access Control (RBAC).
+- **Email Verification System** (Mocked for development).
+- **Entity Relationships**: Users, Posts, Comments, and Likes.
+- **Advanced Querying**: Pagination, sorting, and filtering.
+- **External API Integration**: Demonstrating microservice communication.
+- **Database**: SQLite (via `better-sqlite3`) for local development.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Core Features
+1. **User Management**: Registration, Login, Profile enrichment.
+2. **Verification**: Users must verify their email before they can interact with the platform.
+3. **Posts**: CRUD operations with pagination and sorting.
+4. **Interactions**: Like and Comment systems.
+5. **Security**: Password hashing with Bcrypt and stateless auth with JWT.
+6. **Admin Privileges**: Admins can moderate content (delete any post).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Setup Instructions
+1. The backend runs on port 3000.
+2. Environment variables are managed via `.env`.
+3. Database is automatically initialized on startup.
